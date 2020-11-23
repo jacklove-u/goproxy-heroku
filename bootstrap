@@ -4,4 +4,4 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy socks -p :$PORT -t wss –parent-ws-method chacha20-ietf-poly1305 –parent-ws-password daksjdhkaj
+./proxy socks -p :$PORT -t wss –louck-ws-password="daksjdhkaj"
