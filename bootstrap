@@ -4,4 +4,4 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy socks -p :$PORT -t wss –louck-ws-password="daksjdhkaj"
+./proxy socks -p :$PORT -t wss --local-ws-password pass
